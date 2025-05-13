@@ -2,7 +2,7 @@
 Remove eyeglasses from face images using a simple Variational Autoencoder (VAE).
 
 > 📚 系列作品｜Project Series:
-> - [Part 1: Basic VAE (本篇 this repo)](https://github.com/VanessaTsai0828/vae-remove-glasses)
+> - [Part 1: Basic VAE](https://github.com/VanessaTsai0828/vae-remove-glasses)
 > - [Part 2: Grayscale VAE](https://github.com/VanessaTsai0828/vae-remove-glasses-gray)
 > - [Part 3: VAE with VGG loss](https://github.com/VanessaTsai0828/vae-remove-glasses-vgg)
 > - [Part 4: VAE-GAN](https://github.com/VanessaTsai0828/vae-remove-glasses-gan)
@@ -17,6 +17,12 @@ Remove eyeglasses from face images using a simple Variational Autoencoder (VAE).
 - 損失函數：重建誤差 + KL 散度  
 - A simple, clean baseline model – perfect to expand later
 
+- A CNN-based Variational Autoencoder (VAE)
+- Trained on 160x160 facial images with and without glasses
+- Outputs a glasses-free version of the face
+- Loss function: reconstruction error + KL divergence
+- A simple, clean baseline model – perfect to expand later
+
 ---
 
 ## 📸 範例結果 | Sample Result
@@ -25,6 +31,12 @@ Remove eyeglasses from face images using a simple Variational Autoencoder (VAE).
 ---
 
 ## 📌 備註 | Notes
-此為基礎版本，無 perceptual loss / GAN 模組
-適合作為後續進階版本的基礎
-潛在空間可視化與特徵插值未來可加入
+- 此為基礎版本，無 perceptual loss / GAN 模組
+- 適合作為後續進階版本的基礎
+- 潛在空間可視化與特徵插值未來可加入
+
+- This is the basic version, without perceptual loss or GAN modules
+- Designed as a solid foundation for future enhancements
+- Latent space visualization and feature interpolation can be added later
+
+
